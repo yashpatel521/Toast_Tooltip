@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <button onclick="myfun('error');">click me </button>
+</body>
+<script src="dist/tata.js"></script>
+<script>
+function myfun(bg){
+    if(bg == 'text'){
+        tata.text(
+        'Hello World',
+         'CSSScript.Com',
+         {
+            position: 'tr',
+            duration: 2000,
+            progress: true,
+            closeBtn: true,
+            animate:'fade',//fade
+            onClick: null,
+            onClose: null
+         }
+        );
+    }else{
+        tata.error(
+        'Hello World',
+         'CSSScript.Com',
+         {
+            position: 'tr',
+            duration: 2000,
+            progress: true,
+            closeBtn: true,
+            animate:'fade',//fade
+            onClick: null,
+            onClose: null
+         }
+        );
+    }
+
+}
+</script>
+</html>

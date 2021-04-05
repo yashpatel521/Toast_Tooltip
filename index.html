@@ -1,0 +1,48 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>jToast.js Toaster Library Demos</title>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.1.3/materia/bootstrap.min.css">
+<style>
+body { background-color: #f7f7f7; }
+.container { margin: 150px auto; text-align: center; }
+</style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>jToast.js Toaster Library Demos</h1>
+    <div class="jquery-script-ads" style="margin:50px auto"><script type="text/javascript"><!--
+google_ad_client = "ca-pub-2783044520727903";
+/* jQuery_demo */
+google_ad_slot = "2780937993";
+google_ad_width = 728;
+google_ad_height = 90;
+//-->
+</script>
+</div>
+    <button onclick="showToast('This is a toast.');" class="btn btn-primary">Show Toast</button>
+    <button onclick="showToast('This is a toast message.', {borderRadius: '5px'});" class="btn btn-danger">With Rounded Borders</button>
+  <button onclick="showToast('This is a toast.', {duration: 5000,close:true});" class="btn btn-warning">5 Seconds</button>
+  <button onclick="showToast('This is a toast.', {progressBar: true});" class="btn btn-info">With A Countdown Bar</button>
+</div>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha384-tsQFqpEReu7ZLhBV2VZlAu7zcOV+rXbYlF2cqB8txI/8aZajjp4Bqd+V6D5IgvKT" crossorigin="anonymous"></script>
+    <script src="jToast.js"></script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-36251023-1']);
+  _gaq.push(['_setDomainName', 'jqueryscript.net']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</body>
+</html>
